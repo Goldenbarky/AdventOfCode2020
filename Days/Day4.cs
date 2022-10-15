@@ -89,8 +89,8 @@ class Day4 {
                     if(!new string[]{"amb", "blu", "brn", "gry", "grn", "hzl", "oth"}.Contains(value)) return false;
                     break;
                 case "pid":
-                    if(!Regex.Match(value, "\\d{9}").Success) return false;
-                    if(value.Length != 9) return false;
+                        if(!Regex.Match(value, "\\d{9}").Success) return false;
+                        if(value.Length != 9) return false;
                     break;
                 default: 
                     return false;
